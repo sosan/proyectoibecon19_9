@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44e16fc1-46f4-455c-b5a0-9234db7ec2ca" name="Default Changelist" comment="" />
+    <list default="true" id="44e16fc1-46f4-455c-b5a0-9234db7ec2ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookies_encriptar.py" beforeDir="false" afterPath="$PROJECT_DIR$/cookies_encriptar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inicio.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568908560690</updated>
-      <workItem from="1568908619579" duration="5864000" />
+      <workItem from="1568908619579" duration="7723000" />
     </task>
     <servers />
   </component>
