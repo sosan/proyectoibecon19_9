@@ -2,25 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e16fc1-46f4-455c-b5a0-9234db7ec2ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jose.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/errorgeneral.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new/agent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new/blog-single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new/prepros-6.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new/properties-single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new/properties.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recuperar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/login-register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/login-register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new/login_register_modal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cookies_encriptar.py" beforeDir="false" afterPath="$PROJECT_DIR$/cookies_encriptar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inicio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new/agent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new/blog-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new/prepros-6.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new/properties-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new/properties.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new/services.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,6 +220,7 @@
       <updated>1568908560690</updated>
       <workItem from="1568908619579" duration="9279000" />
       <workItem from="1568962340289" duration="14054000" />
+      <workItem from="1569053512277" duration="5927000" />
     </task>
     <task id="LOCAL-00001" summary="forms, validators">
       <created>1568919754506</created>

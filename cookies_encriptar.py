@@ -60,15 +60,33 @@ def inicio():
         }
 
         # return "Ya estamos en inicio {}".format(recuperarCookie) # render_template("inicio.html")
-        return render_template("new/index.html", **context)  # diccionario abierto
+        return render_template("new/login_register_modal.html", **context)  # diccionario abierto
 
     except:
         return render_template("errorgeneral.html", **context)  # diccionario abierto
 
 
-@app.route("/contact", methods=["GET", "POST"])
-def contact():
-    return render_template("contact.html")
+@app.route("/inicio2", methods=["GET", "POST"])
+def inicio2():
+#    try:
+
+        ip = request.remote_addr
+        session["user_ip"] = ip
+
+        recuperarCookie = session.get("user_ip")
+        loginform = LoginFormulario()
+
+        context = {
+            "cookie": recuperarCookie,
+            "loginForm": loginform,
+            "count": countGlobal
+        }
+
+        # return "Ya estamos en inicio {}".format(recuperarCookie) # render_template("inicio.html")
+        return render_template("inicio.html", **context)  # diccionario abierto
+
+#    except:
+#        return render_template("errorgeneral.html", **context)  # diccionario abierto
 
 
 # punto de entrada
