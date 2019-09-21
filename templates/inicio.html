@@ -1,13 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1>Estas en inciiop {{ recuperarCookie }}</h1>
-</body>
-</html>
+{% extends "base.html" %}
+
+<!--  url_for("inicio.html") -->
+{% block content %}
+<main>
+
+    {{ loginForm.count }}
+    <form action=/templates/inicio.html" method="post">  <!-- post no lo enseña en el url y #get lo ensaeña en la url -->
+        {{ loginForm.usuario.label }}
+        {{ loginForm.usuario }}
+        <br>
+        {{ loginForm.password.label }}
+        {{ loginForm.password }}
+        <br>
+        {{ loginForm.botonEnviar }}
+
+    </form>
+
+</main>
+{% endblock %}
+
+
 
 
 

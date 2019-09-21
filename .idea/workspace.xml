@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e16fc1-46f4-455c-b5a0-9234db7ec2ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jose.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/errorgeneral.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new/agent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new/blog-single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new/prepros-6.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new/properties-single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new/properties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/recuperar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cookies_encriptar.py" beforeDir="false" afterPath="$PROJECT_DIR$/cookies_encriptar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inicio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,16 +40,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1R3vONk7hnUmBFIXGM7kRVrNO2u" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../es_ANY.dic" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\proyectospython\proyecto_ibecon19_9\templates\new" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,11 +73,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hexagon">
+  <component name="RunManager" selected="Python.cookies_encriptar">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="proyecto_ibecon19_9" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -72,6 +100,9 @@
       <module name="proyecto_ibecon19_9" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -110,6 +141,9 @@
       <module name="proyecto_ibecon19_9" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -129,6 +163,9 @@
       <module name="proyecto_ibecon19_9" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -161,14 +198,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hexagon" />
         <item itemvalue="Python.cookies_encriptar" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.cookie_encriptar" />
-        <item itemvalue="Python.hexagon" />
+        <item itemvalue="Python.cookies_encriptar" />
+        <item itemvalue="Python.cookies_encriptar" />
+        <item itemvalue="Python.cookies_encriptar" />
+        <item itemvalue="Python.cookies_encriptar" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="1" Folder0="C:\proyectospython" CustomDictionaries="1" CustomDictionary0="C:\proyectospython\es_ANY.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -179,18 +217,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568908560690</updated>
-      <workItem from="1568908619579" duration="7723000" />
+      <workItem from="1568908619579" duration="9279000" />
+      <workItem from="1568962340289" duration="14054000" />
     </task>
+    <task id="LOCAL-00001" summary="forms, validators">
+      <created>1568919754506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568919754506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="forms, validators" />
+    <option name="LAST_COMMIT_MESSAGE" value="forms, validators" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="0" key="#cookie_encriptar" />
     <state x="402" y="0" key="#cookie_encriptar/1366.768" />
     <state x="417" y="153" key="EnvironmentVariablesDialog" />
     <state x="417" y="153" key="EnvironmentVariablesDialog/1366.768" />
+    <state x="466" y="79" key="FileChooserDialogImpl" />
+    <state x="466" y="79" key="FileChooserDialogImpl/1366.768" />
+    <state x="327" y="0" key="SettingsEditor" />
+    <state x="327" y="0" key="SettingsEditor/1366.768" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/1366.768" />
   </component>
