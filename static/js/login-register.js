@@ -7,7 +7,8 @@
  * 
  */
 function showRegisterForm(){
-    $('.loginBox').fadeOut('fast',function(){
+    $('.loginBox').fadeOut('fast',function()
+    {
         $('.registerBox').fadeIn('fast');
         $('.login-footer').fadeOut('fast',function(){
             $('.register-footer').fadeIn('fast');

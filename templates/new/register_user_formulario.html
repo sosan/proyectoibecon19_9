@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+    <style>body{padding-top: 60px;}</style>
+{% endblock %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+    {{ super() }}
+<div class="container">
+
+    <div class=" login" id="loginModal">
+        <div class="modal-dialog login animated">
+             <div class="modal-content">
+                <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Register With</h4>
+                </div>
+
+
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        <ul class="flashes">
+                            {% for message in messages %}
+                              <li>{{ message }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                {% endwith %}
+
+                <ul><li>{{ error }}xx</li></ul>
+                {% if resultado == True %}
+                <div class="modal-body">
+                                <div class="box">
+                                <div class="content registerBox" >
+                                 <div class="form">
+                                    <form action="/resultado_form_register" method="post">
+
+                                         {{ resultado["loginForm"]["usuario"] }}
+
+                                        <input id="email" class="form-control" type="text" placeholder="Email" name="email">
+                                        <input id="password" class="form-control" type="password" placeholder="Password" name="password">
+                                        <input id="password_confirmation" class="form-control" type="password" placeholder="Repeat Password" name="password_confirmation">
+                                        <input class="btn btn-default btn-register" type="submit" value="Registrar" name="submit">
+                                    </form>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                {% endif %}
+             </div>
+        </div>
+
+    </div>
+</div>
+
+
+{% endblock %}

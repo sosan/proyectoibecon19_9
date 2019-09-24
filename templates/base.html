@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-{% block head %}
+
 <head>
+{% block head %}
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}</title>
+
+    <link href="{{  url_for("static", filename="css/bootstrap.css") }} " rel="stylesheet" /> <!-- assets/css/bootstrap.css-->
+
+	<link href="{{  url_for("static", filename="css/login-register.css") }}" rel="stylesheet" /> <!-- assets/css/login-register.css -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+{% endblock %}
 </head>
 
-{% endblock %}
-<body>
 
+
+
+<body>
+{% include 'nav.html' %}
 
 {% block content %}
 {% endblock %}
 
-
+{% include 'footer.html' %}
 </body>
 </html>
