@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e16fc1-46f4-455c-b5a0-9234db7ec2ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new/register_user_formulario.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/resultado_form_register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jose.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/jose.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies_encriptar.py" beforeDir="false" afterPath="$PROJECT_DIR$/cookies_encriptar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/login-register.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/login-register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inicio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/new/login_register_modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/new/login_register_modal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +122,9 @@
       <module name="proyecto_ibecon19_9" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -233,7 +226,8 @@
       <workItem from="1569132164834" duration="10481000" />
       <workItem from="1569231817231" duration="24546000" />
       <workItem from="1569310023859" duration="10880000" />
-      <workItem from="1569338785520" duration="1648000" />
+      <workItem from="1569338785520" duration="3093000" />
+      <workItem from="1569359949987" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="forms, validators">
       <created>1568919754506</created>
